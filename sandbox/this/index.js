@@ -1,0 +1,1 @@
+document.write("<H1>метод this</H1>")
