@@ -5,3 +5,5 @@
 еще задания с coursera
 
 flags
+
+in while for new case (simple number case)
