@@ -159,3 +159,29 @@ while(n > 50) {
 
 alert(num);
 */
+
+/*num = 1;
+
+function simple(num) {
+    for(let i = 2; i < num; i++)
+        if(num % i == 0) {
+            return '<br>';
+        } else {
+            return num;
+        }
+}
+
+document.write(simple(num));*/
+
+
+let n = 1000;
+
+nextPrime:
+for (let i = 2; i <= n; i++) { // Для всех i...
+
+  for (let j = 2; j < i; j++) { // проверить, делится ли число..
+    if (i % j == 0) continue nextPrime; // не подходит, берём следующее
+  }
+
+  document.write( i + '<br>' ); // простое число
+}
