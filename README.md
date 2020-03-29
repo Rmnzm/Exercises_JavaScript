@@ -7,3 +7,5 @@
 flags
 
 in while for new case (simple number case)
+
+/last now - pyramids
