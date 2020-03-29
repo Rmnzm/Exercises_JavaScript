@@ -173,7 +173,7 @@ function simple(num) {
 
 document.write(simple(num));*/
 
-
+/*
 let n = 1000;
 
 nextPrime:
@@ -184,4 +184,17 @@ for (let i = 2; i <= n; i++) { // Для всех i...
   }
 
   document.write( i + '<br>' ); // простое число
+} */
+
+let n = 1000;
+
+function simple(n) {
+    for (let i = 2; i <= n; i++) {
+        for(let j = 2; j < i; j++) {
+            if(i % j == 0) continue;
+        }
+        document.write(i + '<br>');
+    }
 }
+
+simple(n);
